@@ -66,5 +66,5 @@ STAR --runMode genomeGenerate --genomeDir /path/to/genomeIndex/ --genomeFastaFil
 Where reference_genome.fa is the reference genome in FASTA format, and /path/to/genomeIndex/ is the directory path used to store the index files.
 
 
-Write by :@https://github.com/jlchen5
+Write by :@[jlchen](https://github.com/jlchen5)
 
