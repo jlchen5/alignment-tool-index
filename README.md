@@ -27,3 +27,44 @@ We welcome contributions from anyone interested in the advancement of alignment 
 Ready to dive in? Start exploring the repository to discover alignment tools, genome indices, and ongoing discussions. Whether you're a seasoned developer or just getting started in bioinformatics, your contributions are valuable in advancing alignment algorithms and genomics research.
 
 
+### Alignment Tool Creation
+
+Below are examples of how to create genome indices for different alignment tools:
+
+#### Bowtie2
+
+Bowtie2 is a commonly used DNA sequence alignment tool for aligning short reads to a reference genome. It uses indices to speed up the alignment process.
+
+~~~
+bowtie2-build reference_genome.fa index_prefix
+~~~
+
+#### BWA (Burrows-Wheeler Aligner)
+
+BWA is another commonly used DNA sequence alignment tool for aligning short reads to a reference genome. It also uses indices to speed up the alignment process.
+
+~~~
+bwa index reference_genome.fa
+~~~
+
+
+#### HISAT2
+
+HISAT2 is a specialized tool for aligning RNA-seq data. It uses genome indices for fast alignment.
+~~~
+hisat2-build reference_genome.fa index_prefix
+
+~~~
+
+#### STAR
+STAR is another widely used tool for RNA-seq data alignment. It also requires genome indices.
+
+~~~
+STAR --runMode genomeGenerate --genomeDir /path/to/genomeIndex/ --genomeFastaFiles reference_genome.fa
+~~~
+
+Where reference_genome.fa is the reference genome in FASTA format, and /path/to/genomeIndex/ is the directory path used to store the index files.
+
+
+Write by :@https://github.com/jlchen5
+
