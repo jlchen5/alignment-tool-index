@@ -2,9 +2,14 @@
 
 Welcome to the Alignment Tool Index repository!
 
+human genome :
+mouse genome :
+
 This repository serves as a centralized hub for the development and collaboration of alignment tools' genome indices, which include the BWA, Bowtie2, STAR, Hisat2, etc. In the realm of bioinformatics and computational biology, efficient alignment algorithms are crucial for various tasks such as sequence alignment, read mapping and comparative genomics. One of the key components in enhancing the performance of these algorithms is the construction and optimization of genome indices.
 
 The primary goal of this repository is to foster collaboration among developers, researchers, and bioinformatics enthusiasts to create, share, and improve genome indices for alignment tools. Whether you're developing a new alignment algorithm or seeking to enhance the efficiency of existing tools, this repository provides a platform for knowledge sharing, code contributions, and discussions.
+
+
 
 ## How to Contribute
 We welcome contributions from anyone interested in the advancement of alignment tools and genome indexing techniques. Here's how you can contribute:
