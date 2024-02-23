@@ -2,8 +2,9 @@
 
 Welcome to the Alignment Tool Index repository!
 
-human genome : Dec. 2013 [(GRCh38/hg38)](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz)
-mouse genome : Jun. 2020 [(GRCm39/mm39)](https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.fa.gz)
+`human genome` : Dec. 2013 [(GRCh38/hg38)](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz)
+
+`mouse genome` : Jun. 2020 [(GRCm39/mm39)](https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.fa.gz)
 
 This repository serves as a centralized hub for the development and collaboration of alignment tools' genome indices, which include the BWA, Bowtie2, STAR, Hisat2, etc. In the realm of bioinformatics and computational biology, efficient alignment algorithms are crucial for various tasks such as sequence alignment, read mapping and comparative genomics. One of the key components in enhancing the performance of these algorithms is the construction and optimization of genome indices.
 
